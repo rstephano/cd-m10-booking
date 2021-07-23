@@ -1,0 +1,10 @@
+server:
+  port: 80
+info:
+  component: Booking Service
+spring:
+  application:
+    name: booking-service
+  sleuth:
+    sampler:
+      probability: 1.0
